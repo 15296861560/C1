@@ -13,6 +13,7 @@ namespace 关系运算符和逻辑运算符
             //逻辑运算符：&&逻辑与，||逻辑或，！逻辑非
             //由逻辑运算符连接的表达式称之为逻辑表达式
             //逻辑运算符两边放的一般都是关系表达式或者bool类型的值
+            //优先级！>&&>||
             b = true && false;
             Console.WriteLine("Hello World!");
             Console.ReadKey();
