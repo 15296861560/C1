@@ -1,0 +1,10 @@
+D:\DATA\c#\C1\加加减减\bin\Debug\netcoreapp3.0\加加减减.exe
+D:\DATA\c#\C1\加加减减\bin\Debug\netcoreapp3.0\加加减减.deps.json
+D:\DATA\c#\C1\加加减减\bin\Debug\netcoreapp3.0\加加减减.runtimeconfig.json
+D:\DATA\c#\C1\加加减减\bin\Debug\netcoreapp3.0\加加减减.runtimeconfig.dev.json
+D:\DATA\c#\C1\加加减减\bin\Debug\netcoreapp3.0\加加减减.dll
+D:\DATA\c#\C1\加加减减\bin\Debug\netcoreapp3.0\加加减减.pdb
+D:\DATA\c#\C1\加加减减\obj\Debug\netcoreapp3.0\加加减减.AssemblyInfoInputs.cache
+D:\DATA\c#\C1\加加减减\obj\Debug\netcoreapp3.0\加加减减.AssemblyInfo.cs
+D:\DATA\c#\C1\加加减减\obj\Debug\netcoreapp3.0\加加减减.dll
+D:\DATA\c#\C1\加加减减\obj\Debug\netcoreapp3.0\加加减减.pdb

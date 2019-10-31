@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "基本类型", "ConsoleApp1\基本类型.csproj", "{DA077C50-DF08-4C9B-BBEE-F2D0CCA01994}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "输出", "ConsoleApp2\输出.csproj", "{93D77896-4203-45F4-955C-97C2ACDD5D8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "转义字符", "ConsoleApp3\转义字符.csproj", "{D4833157-7AC0-439D-AC12-A9DBA145F7C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Convert类型转换", "Convert类型转换\Convert类型转换.csproj", "{6F2F7559-98BC-4A90-93E5-37D156C2D2C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "加加减减", "加加减减\加加减减.csproj", "{17803072-62BB-4981-9C7A-6F9CE5645CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "关系运算符和逻辑运算符", "关系运算符和逻辑运算符\关系运算符和逻辑运算符.csproj", "{F1229548-8B1E-4D8F-BE4C-E1B15C8D3E9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA077C50-DF08-4C9B-BBEE-F2D0CCA01994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA077C50-DF08-4C9B-BBEE-F2D0CCA01994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA077C50-DF08-4C9B-BBEE-F2D0CCA01994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA077C50-DF08-4C9B-BBEE-F2D0CCA01994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D77896-4203-45F4-955C-97C2ACDD5D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D77896-4203-45F4-955C-97C2ACDD5D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D77896-4203-45F4-955C-97C2ACDD5D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D77896-4203-45F4-955C-97C2ACDD5D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4833157-7AC0-439D-AC12-A9DBA145F7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4833157-7AC0-439D-AC12-A9DBA145F7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4833157-7AC0-439D-AC12-A9DBA145F7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4833157-7AC0-439D-AC12-A9DBA145F7C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2F7559-98BC-4A90-93E5-37D156C2D2C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2F7559-98BC-4A90-93E5-37D156C2D2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2F7559-98BC-4A90-93E5-37D156C2D2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2F7559-98BC-4A90-93E5-37D156C2D2C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17803072-62BB-4981-9C7A-6F9CE5645CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17803072-62BB-4981-9C7A-6F9CE5645CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17803072-62BB-4981-9C7A-6F9CE5645CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17803072-62BB-4981-9C7A-6F9CE5645CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1229548-8B1E-4D8F-BE4C-E1B15C8D3E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1229548-8B1E-4D8F-BE4C-E1B15C8D3E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1229548-8B1E-4D8F-BE4C-E1B15C8D3E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1229548-8B1E-4D8F-BE4C-E1B15C8D3E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {770406F7-DD1D-4CF3-8687-1754D1EAB41C}
+	EndGlobalSection
+EndGlobal
