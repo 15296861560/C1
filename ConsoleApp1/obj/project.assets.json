@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DATA\\c#\\C1\\ConsoleApp1\\变量.csproj",
-      "projectName": "变量",
-      "projectPath": "D:\\DATA\\c#\\C1\\ConsoleApp1\\变量.csproj",
+      "projectUniqueName": "D:\\DATA\\c#\\C1\\ConsoleApp1\\变量类型.csproj",
+      "projectName": "变量类型",
+      "projectPath": "D:\\DATA\\c#\\C1\\ConsoleApp1\\变量类型.csproj",
       "packagesPath": "C:\\Users\\11720\\.nuget\\packages\\",
       "outputPath": "D:\\DATA\\c#\\C1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
