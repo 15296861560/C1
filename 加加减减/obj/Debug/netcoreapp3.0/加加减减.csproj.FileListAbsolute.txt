@@ -8,3 +8,4 @@ D:\DATA\c#\C1\加加减减\obj\Debug\netcoreapp3.0\加加减减.AssemblyInfoInpu
 D:\DATA\c#\C1\加加减减\obj\Debug\netcoreapp3.0\加加减减.AssemblyInfo.cs
 D:\DATA\c#\C1\加加减减\obj\Debug\netcoreapp3.0\加加减减.dll
 D:\DATA\c#\C1\加加减减\obj\Debug\netcoreapp3.0\加加减减.pdb
+D:\DATA\c#\C1\加加减减\obj\Debug\netcoreapp3.0\加加减减.csprojAssemblyReference.cache
