@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "if结构", "if结构\if结�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "异常捕获", "异常捕获\异常捕获.csproj", "{922F521B-7422-4590-AB4B-180E8D1182FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch和case", "switch和case\switch和case.csproj", "{28F9E258-A8C8-4107-AA5F-121F01949F48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{922F521B-7422-4590-AB4B-180E8D1182FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{922F521B-7422-4590-AB4B-180E8D1182FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{922F521B-7422-4590-AB4B-180E8D1182FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F9E258-A8C8-4107-AA5F-121F01949F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F9E258-A8C8-4107-AA5F-121F01949F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F9E258-A8C8-4107-AA5F-121F01949F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F9E258-A8C8-4107-AA5F-121F01949F48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
