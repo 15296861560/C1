@@ -15,7 +15,6 @@ namespace break的用法
                 i++;
                 if (i == 5) break;
             }
-
             Console.WriteLine(i);
             Console.ReadKey();
         }
