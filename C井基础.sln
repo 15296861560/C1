@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "循环结构", "循环结�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "break的用法", "break的用法\break的用法.csproj", "{BA490E45-C04F-412B-8140-10DB144AC000}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Continue的使用", "Continue的使用\Continue的使用.csproj", "{D9C36961-6125-4ED8-B764-7D041CCFEBCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{BA490E45-C04F-412B-8140-10DB144AC000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA490E45-C04F-412B-8140-10DB144AC000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA490E45-C04F-412B-8140-10DB144AC000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C36961-6125-4ED8-B764-7D041CCFEBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C36961-6125-4ED8-B764-7D041CCFEBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C36961-6125-4ED8-B764-7D041CCFEBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C36961-6125-4ED8-B764-7D041CCFEBCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
