@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Continue的使用", "Contin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "for循环嵌套", "for循环嵌套\for循环嵌套.csproj", "{BDDFEC10-0D9E-4198-B961-1D5CBE5DD625}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "类型转换", "类型转换\类型转换.csproj", "{D2B64880-B42E-40B5-BF57-921ACE90DD81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "类型转换", "类型转换\类型转换.csproj", "{D2B64880-B42E-40B5-BF57-921ACE90DD81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "断点调试", "断点调试\断点调试.csproj", "{1E656A13-9B3B-44A9-814A-E2302ADF0229}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{D2B64880-B42E-40B5-BF57-921ACE90DD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2B64880-B42E-40B5-BF57-921ACE90DD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2B64880-B42E-40B5-BF57-921ACE90DD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E656A13-9B3B-44A9-814A-E2302ADF0229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E656A13-9B3B-44A9-814A-E2302ADF0229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E656A13-9B3B-44A9-814A-E2302ADF0229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E656A13-9B3B-44A9-814A-E2302ADF0229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
