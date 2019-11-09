@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "类型转换", "类型转�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "断点调试", "断点调试\断点调试.csproj", "{1E656A13-9B3B-44A9-814A-E2302ADF0229}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "三元表达式", "三元表达式\三元表达式.csproj", "{AF8F92B5-725A-4343-B926-8AB15F3A0B93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{1E656A13-9B3B-44A9-814A-E2302ADF0229}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E656A13-9B3B-44A9-814A-E2302ADF0229}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E656A13-9B3B-44A9-814A-E2302ADF0229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8F92B5-725A-4343-B926-8AB15F3A0B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8F92B5-725A-4343-B926-8AB15F3A0B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8F92B5-725A-4343-B926-8AB15F3A0B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8F92B5-725A-4343-B926-8AB15F3A0B93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
