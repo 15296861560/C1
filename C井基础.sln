@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "常量", "常量\常量.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "枚举", "枚举\枚举.csproj", "{046607BA-B814-438D-9364-177A0CDD8E50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "结构", "结构\结构.csproj", "{381AA995-F8DE-4EAA-AA0D-AC17845B0641}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "结构", "结构\结构.csproj", "{381AA995-F8DE-4EAA-AA0D-AC17845B0641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数组的定义", "数组的定义\数组的定义.csproj", "{88FCD812-B21E-4E04-899D-43045450F91C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{381AA995-F8DE-4EAA-AA0D-AC17845B0641}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{381AA995-F8DE-4EAA-AA0D-AC17845B0641}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{381AA995-F8DE-4EAA-AA0D-AC17845B0641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FCD812-B21E-4E04-899D-43045450F91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FCD812-B21E-4E04-899D-43045450F91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FCD812-B21E-4E04-899D-43045450F91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FCD812-B21E-4E04-899D-43045450F91C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
