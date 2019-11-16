@@ -51,9 +51,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "out参数的使用", "out�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ref参数的使用", "ref参数的使用\ref参数的使用.csproj", "{79F430AC-3980-4A5A-9584-F013F60AB927}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "params可变参数", "params可变参数\params可变参数.csproj", "{84CA3611-6868-4B19-A5D2-500B43A911E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "params可变参数", "params可变参数\params可变参数.csproj", "{84CA3611-6868-4B19-A5D2-500B43A911E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法的重载", "方法的重载\方法的重载.csproj", "{66E94E55-8456-4D5D-8AB9-7C121DB01FB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "方法的重载", "方法的重载\方法的重载.csproj", "{66E94E55-8456-4D5D-8AB9-7C121DB01FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法的递归", "方法的递归\方法的递归.csproj", "{5F5465B1-5793-43F1-A4EC-10AA8E086F2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{66E94E55-8456-4D5D-8AB9-7C121DB01FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66E94E55-8456-4D5D-8AB9-7C121DB01FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66E94E55-8456-4D5D-8AB9-7C121DB01FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F5465B1-5793-43F1-A4EC-10AA8E086F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5465B1-5793-43F1-A4EC-10AA8E086F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5465B1-5793-43F1-A4EC-10AA8E086F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5465B1-5793-43F1-A4EC-10AA8E086F2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
