@@ -4,13 +4,13 @@ namespace 类的基本语法
 {
     public class Person
     {
-        public string name;
-        int age;
+        public string _name;
+        int _age;
 
 
         public void setAge(int newAge)
         {
-            this.age = newAge;
+            _age = newAge;
         }
     }
 
@@ -43,10 +43,10 @@ namespace 类的基本语法
         {
             Person p ;//自定义类
             p = new Person();//创建Person类的对象
-            p.name = "小p";
+            p._name = "小p";
             p.setAge(18);
 
-            Console.WriteLine(p.name);
+            Console.WriteLine(p._name);
         }
     }
 }
