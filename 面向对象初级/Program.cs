@@ -26,6 +26,11 @@ namespace 面向对象初级
      * 1.代表当前类的对象
      * 2.在类当中显示的调用本类的构造函数
      * 
+     * 析构函数当程序结束的时候执行
+     * 1.帮助我们释放资源
+     * 2.当你不想等系统自动释放资源而是想马上释放资源的时候可直接调用析构函数
+     * 
+     * 
      */
 
 
@@ -56,6 +61,12 @@ namespace 面向对象初级
             Movement = movement;
         }
 
+       ~Pet()//析构函数
+        {
+
+        }
+
+
         public string Kind { get => _kind; set => _kind = value; }
         public string Name { get => _name; set => _name = value; }
         public int Age { get => _age; set => _age = value; }
@@ -66,6 +77,9 @@ namespace 面向对象初级
         {
             Console.WriteLine("这是一只是一只{0}，它叫{1}，它今年{2}岁了，它会{3}",Kind,Name,Age,Movement);
         }
+
+
+
 
 
     }
