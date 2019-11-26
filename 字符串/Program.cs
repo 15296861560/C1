@@ -60,7 +60,7 @@ namespace 字符串
             //分割字符串Split
             string ss = "a  b   s  +  q  ! f";
             char[] chs = { ' ', '+', '!' };//分割符
-            string[] sss= ss.Split(chs,StringSplitOptions.RemoveEmptyEntries);//分割字符串并移除空项
+            string[] sss= ss.Split(chs,StringSplitOptions.RemoveEmptyEntries);//分割字符串并移 除空项
             Console.WriteLine(sss);
             //判断字符串是否有子字符串Contains()
             Console.WriteLine(sa.Contains('a'));
