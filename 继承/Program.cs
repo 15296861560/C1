@@ -11,6 +11,15 @@ namespace 继承
      * 
      * 1.子类继承了父类的属性和方法，但是子类并没有继承父类的私有字段
      * 2.子类并没有继承父类的构造函数,但是子类会默认调用父类无参的构造函数创建父类对象，让子类可以使用父类中的成员
+     * 
+     * 
+     * 
+     * 在c#中，所有的类都直接或间接继承自object类
+     * 如果一个类没有继承哪一个类那么这个类继承了object类
+     * 
+     * new
+     * 1.创建对象
+     * 2.隐藏从父类那里继承过来的同名成员
      */
 
 
@@ -38,7 +47,7 @@ namespace 继承
 
 
 
-        public void yell()
+        public void Yell()
         {
             Console.WriteLine("呃呃呃");
         }
@@ -50,16 +59,16 @@ namespace 继承
 
         public Cat(string name,int age) : base(name, age) { }//显示调用父类有参的构造函数
 
-        public new void yell()
+        public new void Yell()//new隐藏从父类那里继承过来的同名成员
         {
             Console.WriteLine("喵喵喵");
         }
-
+         
     }
 
     public class Dog : Pet
     {
-        public new void yell()
+        public new void Yell()
         {
             Console.WriteLine("汪汪汪");
         }
@@ -74,7 +83,7 @@ namespace 继承
             Pet p = new Pet();
             Cat c = new Cat("MiKi",1);
             c.Age = 10;
-
+            c.Yell();
             Console.WriteLine(c.Age);
             Console.WriteLine(c.Name);
         }
