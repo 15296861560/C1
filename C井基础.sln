@@ -69,7 +69,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "值类型 和引用类型",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "字符串", "字符串\字符串.csproj", "{039F3BCE-DF02-4A30-9D94-6E5745409699}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "继承", "继承\继承.csproj", "{66D0E3C8-DD69-4514-88A2-4AAA53E8DE89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "继承", "继承\继承.csproj", "{66D0E3C8-DD69-4514-88A2-4AAA53E8DE89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "里氏转换", "里氏转换\里氏转换.csproj", "{D3B9A633-28B8-4A88-B546-717CBE3D0F89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,10 @@ Global
 		{66D0E3C8-DD69-4514-88A2-4AAA53E8DE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66D0E3C8-DD69-4514-88A2-4AAA53E8DE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66D0E3C8-DD69-4514-88A2-4AAA53E8DE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B9A633-28B8-4A88-B546-717CBE3D0F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B9A633-28B8-4A88-B546-717CBE3D0F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B9A633-28B8-4A88-B546-717CBE3D0F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B9A633-28B8-4A88-B546-717CBE3D0F89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
