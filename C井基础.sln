@@ -73,7 +73,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "继承", "继承\继承.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "里氏转换", "里氏转换\里氏转换.csproj", "{D3B9A633-28B8-4A88-B546-717CBE3D0F89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "集合之ArrayList", "集合之ArrayList\集合之ArrayList.csproj", "{5BCC4A70-36E1-4823-9535-9F81BF616F93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "集合之ArrayList", "集合之ArrayList\集合之ArrayList.csproj", "{5BCC4A70-36E1-4823-9535-9F81BF616F93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "集合之HashTable", "集合之HashTable\集合之HashTable.csproj", "{86480D85-894E-4BDE-A34A-7C443EC7F1CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{5BCC4A70-36E1-4823-9535-9F81BF616F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BCC4A70-36E1-4823-9535-9F81BF616F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BCC4A70-36E1-4823-9535-9F81BF616F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86480D85-894E-4BDE-A34A-7C443EC7F1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86480D85-894E-4BDE-A34A-7C443EC7F1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86480D85-894E-4BDE-A34A-7C443EC7F1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86480D85-894E-4BDE-A34A-7C443EC7F1CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
