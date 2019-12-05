@@ -79,7 +79,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "集合之HashTable", "集�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Path类", "Path类\Path类.csproj", "{C348621A-FA94-40DE-BECA-71E4436BA190}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File类", "File类\File类.csproj", "{95984211-0150-44FD-91BB-6BFF229F9DD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "File类", "File类\File类.csproj", "{95984211-0150-44FD-91BB-6BFF229F9DD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "泛型集合", "泛型集合\泛型集合.csproj", "{FE505682-5814-46C5-BBB7-AF891A1AA7D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +245,10 @@ Global
 		{95984211-0150-44FD-91BB-6BFF229F9DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95984211-0150-44FD-91BB-6BFF229F9DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95984211-0150-44FD-91BB-6BFF229F9DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE505682-5814-46C5-BBB7-AF891A1AA7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE505682-5814-46C5-BBB7-AF891A1AA7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE505682-5814-46C5-BBB7-AF891A1AA7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE505682-5814-46C5-BBB7-AF891A1AA7D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
