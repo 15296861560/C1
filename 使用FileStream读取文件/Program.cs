@@ -21,6 +21,7 @@ namespace 使用FileStream读取文件
             Console.WriteLine(s);
 
             //使用FileStream写入数据
+            //使用using可以自动关闭流和释放流所占用的资源
             using (FileStream fsw = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write))
             {
                 string str = "这是新写入";
