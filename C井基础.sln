@@ -87,7 +87,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "装箱和拆箱", "装箱�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "集合之Dictionary", "集合之Dictionary\集合之Dictionary.csproj", "{B484C31F-70C3-463A-AF48-E0A0B6735132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用FileStream读取文件", "使用FileStream读取文件\使用FileStream读取文件.csproj", "{C3DAD9B8-1778-4905-8CF4-DF2B283311AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "使用FileStream读取文件", "使用FileStream读取文件\使用FileStream读取文件.csproj", "{C3DAD9B8-1778-4905-8CF4-DF2B283311AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamReader和StreamWriter的使用", "StreamReader和StreamWriter的使用\StreamReader和StreamWriter的使用.csproj", "{D3B7926E-5AD9-4529-987D-B6527A5A2C24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +269,10 @@ Global
 		{C3DAD9B8-1778-4905-8CF4-DF2B283311AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3DAD9B8-1778-4905-8CF4-DF2B283311AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3DAD9B8-1778-4905-8CF4-DF2B283311AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B7926E-5AD9-4529-987D-B6527A5A2C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B7926E-5AD9-4529-987D-B6527A5A2C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B7926E-5AD9-4529-987D-B6527A5A2C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B7926E-5AD9-4529-987D-B6527A5A2C24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
