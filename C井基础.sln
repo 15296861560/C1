@@ -93,7 +93,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamReader和StreamWriter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "多态之虚方法", "多态之虚方法\多态之虚方法.csproj", "{D93D8930-0BC5-461A-97B0-371F31E4FC18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态之抽象类", "多态之抽象类\多态之抽象类.csproj", "{1B89C495-336F-4A0E-8915-BB35B0EAA8E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "多态之抽象类", "多态之抽象类\多态之抽象类.csproj", "{1B89C495-336F-4A0E-8915-BB35B0EAA8E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "访问修饰符", "访问修饰符\访问修饰符.csproj", "{22FB708C-3256-45F5-B2C5-E4CA16668D68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,6 +287,10 @@ Global
 		{1B89C495-336F-4A0E-8915-BB35B0EAA8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B89C495-336F-4A0E-8915-BB35B0EAA8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B89C495-336F-4A0E-8915-BB35B0EAA8E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FB708C-3256-45F5-B2C5-E4CA16668D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FB708C-3256-45F5-B2C5-E4CA16668D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FB708C-3256-45F5-B2C5-E4CA16668D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FB708C-3256-45F5-B2C5-E4CA16668D68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
