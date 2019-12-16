@@ -99,7 +99,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "访问修饰符", "访问�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "简单工厂设计模式", "简单工厂设计模式\简单工厂设计模式.csproj", "{BCD5D8EB-3A29-49E8-BBDD-7E7844492F5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "值传递和引用传递", "值传递和引用传递\值传递和引用传递.csproj", "{7FD3DC07-6A46-4CC0-821F-CC4DD412CC9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "值传递和引用传递", "值传递和引用传递\值传递和引用传递.csproj", "{7FD3DC07-6A46-4CC0-821F-CC4DD412CC9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "序列化和反序列化", "序列化和反序列化\序列化和反序列化.csproj", "{95ED09FB-9756-4C05-83B2-FF4AA6E72A3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +305,10 @@ Global
 		{7FD3DC07-6A46-4CC0-821F-CC4DD412CC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FD3DC07-6A46-4CC0-821F-CC4DD412CC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FD3DC07-6A46-4CC0-821F-CC4DD412CC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95ED09FB-9756-4C05-83B2-FF4AA6E72A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95ED09FB-9756-4C05-83B2-FF4AA6E72A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95ED09FB-9756-4C05-83B2-FF4AA6E72A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95ED09FB-9756-4C05-83B2-FF4AA6E72A3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
