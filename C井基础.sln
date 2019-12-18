@@ -103,9 +103,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "值传递和引用传递", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "序列化和反序列化", "序列化和反序列化\序列化和反序列化.csproj", "{95ED09FB-9756-4C05-83B2-FF4AA6E72A3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "部分类", "部分类\部分类.csproj", "{FFFD3A81-A34D-4DE7-B890-AF53C635AB7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "部分类", "部分类\部分类.csproj", "{FFFD3A81-A34D-4DE7-B890-AF53C635AB7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "密封类", "密封类\密封类.csproj", "{E543722F-1D0E-44F2-8AB9-43B5F4A66831}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "密封类", "密封类\密封类.csproj", "{E543722F-1D0E-44F2-8AB9-43B5F4A66831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态之接口", "多态之接口\多态之接口.csproj", "{9E925837-3CFF-4ED5-AA64-7CCD6D8E9C7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +323,10 @@ Global
 		{E543722F-1D0E-44F2-8AB9-43B5F4A66831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E543722F-1D0E-44F2-8AB9-43B5F4A66831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E543722F-1D0E-44F2-8AB9-43B5F4A66831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E925837-3CFF-4ED5-AA64-7CCD6D8E9C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E925837-3CFF-4ED5-AA64-7CCD6D8E9C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E925837-3CFF-4ED5-AA64-7CCD6D8E9C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E925837-3CFF-4ED5-AA64-7CCD6D8E9C7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
