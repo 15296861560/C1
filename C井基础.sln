@@ -111,7 +111,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "多态之接口", "多态�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "显示实现接口", "显示实现接口\显示实现接口.csproj", "{7DB9E1A6-06DB-40CE-A3F3-4CE7ACA4A56E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD5加密", "MD5加密\MD5加密.csproj", "{5192F046-11D1-4F1B-9C40-35DF22A4E73C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MD5加密", "MD5加密\MD5加密.csproj", "{5192F046-11D1-4F1B-9C40-35DF22A4E73C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm应用程序", "WinForm应用程序\WinForm应用程序.csproj", "{A36261AA-4DB8-4CF1-90CC-D395180B58FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -339,6 +341,10 @@ Global
 		{5192F046-11D1-4F1B-9C40-35DF22A4E73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5192F046-11D1-4F1B-9C40-35DF22A4E73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5192F046-11D1-4F1B-9C40-35DF22A4E73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36261AA-4DB8-4CF1-90CC-D395180B58FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36261AA-4DB8-4CF1-90CC-D395180B58FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36261AA-4DB8-4CF1-90CC-D395180B58FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36261AA-4DB8-4CF1-90CC-D395180B58FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
