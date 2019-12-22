@@ -115,6 +115,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MD5加密", "MD5加密\MD5�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm应用程序", "WinForm应用程序\WinForm应用程序.csproj", "{A36261AA-4DB8-4CF1-90CC-D395180B58FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Can_You_Choose", "Can_You_Choose\Can_You_Choose.csproj", "{0B1AB063-E57E-4C9B-BE4D-F6B5BBA5ED6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -345,6 +347,10 @@ Global
 		{A36261AA-4DB8-4CF1-90CC-D395180B58FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A36261AA-4DB8-4CF1-90CC-D395180B58FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A36261AA-4DB8-4CF1-90CC-D395180B58FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1AB063-E57E-4C9B-BE4D-F6B5BBA5ED6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1AB063-E57E-4C9B-BE4D-F6B5BBA5ED6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1AB063-E57E-4C9B-BE4D-F6B5BBA5ED6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1AB063-E57E-4C9B-BE4D-F6B5BBA5ED6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
