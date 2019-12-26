@@ -119,6 +119,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Can_You_Choose", "Can_You_C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Label和TextBox控件", "Label和TextBox控件\Label和TextBox控件.csproj", "{8CCC6B8C-477F-4365-AACA-ADC1A069A899}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer控件", "Timer控件\Timer控件.csproj", "{923F4C3F-E1E3-4271-B208-56E2FD8EC7BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -357,6 +359,10 @@ Global
 		{8CCC6B8C-477F-4365-AACA-ADC1A069A899}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CCC6B8C-477F-4365-AACA-ADC1A069A899}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CCC6B8C-477F-4365-AACA-ADC1A069A899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{923F4C3F-E1E3-4271-B208-56E2FD8EC7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923F4C3F-E1E3-4271-B208-56E2FD8EC7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923F4C3F-E1E3-4271-B208-56E2FD8EC7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923F4C3F-E1E3-4271-B208-56E2FD8EC7BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
