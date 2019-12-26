@@ -10,6 +10,15 @@ using System.Windows.Forms;
 
 namespace Label和TextBox控件
 {
+    /*
+     * TextBox控件
+     * WordWrap:指示文本框是否换行
+     * PasswordChar：让文本框显示一个单一的字符
+     * ScollBars：是否显示滚动条
+     * 事件：TextChanged当文本框中的内容发生改变的时候触发这个事件
+     * 
+     */
+
     public partial class Form1 : Form
     {
         public Form1()
