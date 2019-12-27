@@ -121,6 +121,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Label和TextBox控件", "La
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer控件", "Timer控件\Timer控件.csproj", "{923F4C3F-E1E3-4271-B208-56E2FD8EC7BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单选和多选", "单选和多选\单选和多选.csproj", "{B1E717E3-525E-48D1-9C89-7D246029783B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,10 @@ Global
 		{923F4C3F-E1E3-4271-B208-56E2FD8EC7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{923F4C3F-E1E3-4271-B208-56E2FD8EC7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{923F4C3F-E1E3-4271-B208-56E2FD8EC7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E717E3-525E-48D1-9C89-7D246029783B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E717E3-525E-48D1-9C89-7D246029783B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E717E3-525E-48D1-9C89-7D246029783B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E717E3-525E-48D1-9C89-7D246029783B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
