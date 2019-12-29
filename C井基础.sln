@@ -125,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单选和多选", "单选�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDI窗口设计", "MDI窗口设计\MDI窗口设计.csproj", "{3A0155DF-8AAB-4EA7-8D4E-8395D5AE26C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureBox控件", "PictureBox控件\PictureBox控件.csproj", "{B586257E-0843-4343-80A9-4EC6CA1755C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -375,6 +377,10 @@ Global
 		{3A0155DF-8AAB-4EA7-8D4E-8395D5AE26C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A0155DF-8AAB-4EA7-8D4E-8395D5AE26C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A0155DF-8AAB-4EA7-8D4E-8395D5AE26C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B586257E-0843-4343-80A9-4EC6CA1755C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B586257E-0843-4343-80A9-4EC6CA1755C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B586257E-0843-4343-80A9-4EC6CA1755C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B586257E-0843-4343-80A9-4EC6CA1755C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
