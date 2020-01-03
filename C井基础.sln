@@ -131,6 +131,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureBox和Timer", "Pictu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "播放音乐下一曲", "播放音乐下一曲\播放音乐下一曲.csproj", "{F1C4B338-B757-46A1-AFDC-F2F7CA395353}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程和进程", "线程和进程\线程和进程.csproj", "{65BBFD60-E682-4CF6-A532-20C95BB110B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -393,6 +395,10 @@ Global
 		{F1C4B338-B757-46A1-AFDC-F2F7CA395353}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1C4B338-B757-46A1-AFDC-F2F7CA395353}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1C4B338-B757-46A1-AFDC-F2F7CA395353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65BBFD60-E682-4CF6-A532-20C95BB110B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BBFD60-E682-4CF6-A532-20C95BB110B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BBFD60-E682-4CF6-A532-20C95BB110B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BBFD60-E682-4CF6-A532-20C95BB110B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
