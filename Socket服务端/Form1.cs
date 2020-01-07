@@ -62,8 +62,44 @@ namespace Socket服务端
                 Socket socketSend = socket.Accept();
                 //显示客户端ip地址并提示连接成功
                 ShowMsg(socketSend.RemoteEndPoint.ToString() + ":连接成功");
+                //开启一个不停接收客户端发送过来消息的一个新线程
+                Thread th = new Thread(Recive);
+                th.IsBackground = true;
+                th.Start(socketSend);
+                
             }
             
+        }
+        /// <summary>
+        /// 服务器不停地接收客户端发送过来的消息
+        /// </summary>
+        /// <param name="o"></param>
+        void Recive(object o)
+        {
+            Socket socketSend = o as Socket;
+            while (true)
+            {
+                try
+                {
+
+                    //客户端连接成功后，服务器接受来自客户端的消息并将其存入一个字节数组里
+                    byte[] buffer = new byte[1024 * 1024];
+                    //实际接受到的有效字节数
+                    int r = socketSend.Receive(buffer);
+                    //对字节数组进行解码
+                    if (r == 0)
+                    {
+                        break;
+                    }
+                    string str = Encoding.UTF8.GetString(buffer, 0, r);
+                    //显示客户端的端口号和他发送过来的消息
+                    ShowMsg(socketSend.RemoteEndPoint + ":" + str);
+                }
+                catch
+                {
+
+                }
+            }
         }
         private void button5_Click(object sender, EventArgs e)
         {
