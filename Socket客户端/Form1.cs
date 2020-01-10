@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -29,9 +30,46 @@ namespace Socket客户端
             //获得要连接的远程服务器应用程序的IP地址和端口号
             socketSend.Connect(endPoint);
             ShowMsg("连接成功");
+            //开启一个新线程不停的接受服务端发来的消息
+            Thread th = new Thread(Recive);
+            th.IsBackground = true;
+            th.Start();
 
 
         }
+
+        /// <summary>
+        /// 客户端不停地接收服务端端发送过来的消息
+        /// </summary>
+        /// <param name="o"></param>
+        void Recive()
+        {
+            while (true)
+            {
+                try
+                {
+
+                    //客户端连接成功后，客户端接受来自服务端的消息并将其存入一个字节数组里
+                    byte[] buffer = new byte[1024 * 1024*3];
+                    //实际接受到的有效字节数
+                    int r = socketSend.Receive(buffer);
+                    //对字节数组进行解码
+                    if (r == 0)
+                    {
+                        break;
+                    }
+                    string str = Encoding.UTF8.GetString(buffer, 0, r);
+                    //显示服务端端的端口号和他发送过来的消息
+                    ShowMsg(socketSend.RemoteEndPoint + ":" + str);
+                }
+                catch
+                {
+
+                }
+            }
+        }
+
+
 
         /// <summary>
         /// 显示信息
