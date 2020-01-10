@@ -41,6 +41,7 @@ namespace Socket服务端
             th.Start(socket);
             
         }
+
         /// <summary>
         /// 显示信息
         /// </summary>
@@ -49,6 +50,11 @@ namespace Socket服务端
         {
             txtLog.AppendText(v + "\r\n");
         }
+
+
+
+
+        Socket socketSend;
         /// <summary>
         /// 等待客户端的连接，并且与之通信用的Socket
         /// </summary>
@@ -59,7 +65,7 @@ namespace Socket服务端
             //等待客户端的连接，并且创建一个负责通信的Socket
             while (true)
             {
-                Socket socketSend = socket.Accept();
+                socketSend = socket.Accept();
                 //显示客户端ip地址并提示连接成功
                 ShowMsg(socketSend.RemoteEndPoint.ToString() + ":连接成功");
                 //开启一个不停接收客户端发送过来消息的一个新线程
@@ -115,6 +121,17 @@ namespace Socket服务端
         private void txtLog_TextChanged(object sender, EventArgs e)
         {
 
+        }
+        /// <summary>
+        /// 服务端发送消息
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnSend_Click(object sender, EventArgs e)
+        {
+            string str = txtMsg.Text;
+            byte[] buffer = System.Text.Encoding.UTF8.GetBytes(str);
+            socketSend.Send(buffer);
         }
     }
 }
