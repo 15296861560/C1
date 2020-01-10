@@ -90,5 +90,10 @@ namespace Socket客户端
             byte[] buffer = System.Text.Encoding.UTF8.GetBytes(str);
             socketSend.Send(buffer);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Control.CheckForIllegalCrossThreadCalls = false;
+        }
     }
 }
