@@ -24,16 +24,24 @@ namespace Socket客户端
         Socket socketSend = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
         private void btnStart_Click(object sender, EventArgs e)
         {
-            
-            IPAddress ip = IPAddress.Parse(txtServer.Text);
-            IPEndPoint endPoint = new IPEndPoint(ip, Convert.ToInt32(txtPort.Text));
-            //获得要连接的远程服务器应用程序的IP地址和端口号
-            socketSend.Connect(endPoint);
-            ShowMsg("连接成功");
-            //开启一个新线程不停的接受服务端发来的消息
-            Thread th = new Thread(Recive);
-            th.IsBackground = true;
-            th.Start();
+            try
+            {
+                IPAddress ip = IPAddress.Parse(txtServer.Text);
+                IPEndPoint endPoint = new IPEndPoint(ip, Convert.ToInt32(txtPort.Text));
+                //获得要连接的远程服务器应用程序的IP地址和端口号
+                socketSend.Connect(endPoint);
+                ShowMsg("连接成功");
+                //开启一个新线程不停的接受服务端发来的消息
+                Thread th = new Thread(Recive);
+                th.IsBackground = true;
+                th.Start();
+
+            }
+            catch
+            {
+
+            }
+
 
 
         }
