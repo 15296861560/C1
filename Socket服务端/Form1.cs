@@ -66,6 +66,10 @@ namespace Socket服务端
             while (true)
             {
                 socketSend = socket.Accept();
+                //将远程连接的客户端IP地址和Socket存入集合中
+                dicSocket.Add(socketSend.RemoteEndPoint.ToString(), socketSend);
+                //将远程连接的客户端的IP地址和端口号存入下拉框中
+                cboUsers.Items.Add(socketSend.RemoteEndPoint.ToString());
                 //显示客户端ip地址并提示连接成功
                 ShowMsg(socketSend.RemoteEndPoint.ToString() + ":连接成功");
                 //开启一个不停接收客户端发送过来消息的一个新线程
@@ -76,6 +80,10 @@ namespace Socket服务端
             }
             
         }
+
+        //将远程连接的客户端IP地址和Socket存入集合中
+        Dictionary<string, Socket> dicSocket = new Dictionary<string, Socket>(); 
+
         /// <summary>
         /// 服务器不停地接收客户端发送过来的消息
         /// </summary>
@@ -129,9 +137,21 @@ namespace Socket服务端
         /// <param name="e"></param>
         private void btnSend_Click(object sender, EventArgs e)
         {
-            string str = txtMsg.Text;
-            byte[] buffer = System.Text.Encoding.UTF8.GetBytes(str);
-            socketSend.Send(buffer);
+            try
+            {
+                string str = txtMsg.Text;
+                byte[] buffer = System.Text.Encoding.UTF8.GetBytes(str);
+                //获得用户在下拉框中选中的IP地址
+                string ip = cboUsers.SelectedItem.ToString();
+                dicSocket[ip].Send(buffer);
+                //socketSend.Send(buffer);
+            }
+            catch
+            {
+
+            }
+
+
         }
     }
 }

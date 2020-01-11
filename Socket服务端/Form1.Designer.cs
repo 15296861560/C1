@@ -38,6 +38,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.btnSend = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.cboUsers = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // txtServer
@@ -58,7 +59,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(443, 49);
+            this.button1.Location = new System.Drawing.Point(404, 49);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(91, 24);
             this.button1.TabIndex = 2;
@@ -128,11 +129,21 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // cboUsers
+            // 
+            this.cboUsers.BackColor = System.Drawing.SystemColors.Window;
+            this.cboUsers.FormattingEnabled = true;
+            this.cboUsers.Location = new System.Drawing.Point(534, 49);
+            this.cboUsers.Name = "cboUsers";
+            this.cboUsers.Size = new System.Drawing.Size(164, 23);
+            this.cboUsers.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cboUsers);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.button3);
@@ -163,6 +174,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnSend;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.ComboBox cboUsers;
     }
 }
 
