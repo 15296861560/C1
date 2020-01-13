@@ -77,7 +77,7 @@ namespace Socket客户端
                         //显示服务端端的端口号和他发送过来的消息
                         ShowMsg(socketSend.RemoteEndPoint + ":" + str);
                     }
-                    else if (buffer[0] == 1)
+                    else if (buffer[0] == 1)//发送的是文件
                     {
                         SaveFileDialog sfd = new SaveFileDialog();
                         sfd.InitialDirectory = @"D:\Test\c#\save";
@@ -93,6 +93,14 @@ namespace Socket客户端
                         }
                         MessageBox.Show("保存成功");
                      }
+                    else if (buffer[0] == 2)//震动
+                    {
+                        for(int i = 0; i < 500; i++)
+                        {
+                            this.Location = new Point(200, 200);
+                            this.Location = new Point(280, 280);
+                        }
+                    }
                     
                 }
                 catch
