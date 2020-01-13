@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -68,7 +69,7 @@ namespace Socket客户端
                     {
                         break;
                     }
-                        if (p== 0)//发送的是文字消息
+                    if (p== 0)//发送的是文字消息
                     {
                         
                         //,对字节数组进行解码
@@ -76,6 +77,22 @@ namespace Socket客户端
                         //显示服务端端的端口号和他发送过来的消息
                         ShowMsg(socketSend.RemoteEndPoint + ":" + str);
                     }
+                    else if (buffer[0] == 1)
+                    {
+                        SaveFileDialog sfd = new SaveFileDialog();
+                        sfd.InitialDirectory = @"D:\Test\c#\save";
+                        sfd.Title = "请选择要保存的文件";
+                        sfd.Filter = "所有文件|*.*";
+                        sfd.ShowDialog();
+
+                        string path = sfd.FileName;
+                        using (FileStream fileStream = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write))
+                        {
+                            fileStream.Write(buffer, 1, r - 1);
+
+                        }
+                        MessageBox.Show("保存成功");
+                     }
                     
                 }
                 catch
