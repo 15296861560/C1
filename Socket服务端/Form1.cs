@@ -141,9 +141,15 @@ namespace Socket服务端
             {
                 string str = txtMsg.Text;
                 byte[] buffer = System.Text.Encoding.UTF8.GetBytes(str);
+                //创建一个泛型集合存储协议和想发送过去的数据
+                List<byte> list = new List<byte>();
+                list.Add(0);
+                list.AddRange(buffer);
+                //将泛型集合转换为数组
+                byte[] newBuffer = list.ToArray();
                 //获得用户在下拉框中选中的IP地址
                 string ip = cboUsers.SelectedItem.ToString();
-                dicSocket[ip].Send(buffer);
+                dicSocket[ip].Send(newBuffer);
                 //socketSend.Send(buffer);
             }
             catch
