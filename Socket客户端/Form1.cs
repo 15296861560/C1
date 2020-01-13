@@ -61,14 +61,22 @@ namespace Socket客户端
                     byte[] buffer = new byte[1024 * 1024*3];
                     //实际接受到的有效字节数
                     int r = socketSend.Receive(buffer);
-                    //对字节数组进行解码
+                    //查看协议
+                    int p = buffer[0];
+                    //若未接受到数据
                     if (r == 0)
                     {
                         break;
                     }
-                    string str = Encoding.UTF8.GetString(buffer, 0, r);
-                    //显示服务端端的端口号和他发送过来的消息
-                    ShowMsg(socketSend.RemoteEndPoint + ":" + str);
+                        if (p== 0)//发送的是文字消息
+                    {
+                        
+                        //,对字节数组进行解码
+                        string str = Encoding.UTF8.GetString(buffer, 1, r-1);
+                        //显示服务端端的端口号和他发送过来的消息
+                        ShowMsg(socketSend.RemoteEndPoint + ":" + str);
+                    }
+                    
                 }
                 catch
                 {
