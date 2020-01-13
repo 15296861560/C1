@@ -83,7 +83,7 @@ namespace Socket客户端
                         sfd.InitialDirectory = @"D:\Test\c#\save";
                         sfd.Title = "请选择要保存的文件";
                         sfd.Filter = "所有文件|*.*";
-                        sfd.ShowDialog();
+                        sfd.ShowDialog(this);
 
                         string path = sfd.FileName;
                         using (FileStream fileStream = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write))
