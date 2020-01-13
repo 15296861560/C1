@@ -33,9 +33,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.txtLog = new System.Windows.Forms.RichTextBox();
             this.txtMsg = new System.Windows.Forms.RichTextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.filePath = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.sendFile = new System.Windows.Forms.Button();
             this.btnSend = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.cboUsers = new System.Windows.Forms.ComboBox();
@@ -84,12 +84,12 @@
             this.txtMsg.TabIndex = 4;
             this.txtMsg.Text = "";
             // 
-            // textBox2
+            // filePath
             // 
-            this.textBox2.Location = new System.Drawing.Point(53, 373);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(423, 25);
-            this.textBox2.TabIndex = 5;
+            this.filePath.Location = new System.Drawing.Point(53, 373);
+            this.filePath.Name = "filePath";
+            this.filePath.Size = new System.Drawing.Size(423, 25);
+            this.filePath.TabIndex = 5;
             // 
             // button2
             // 
@@ -99,15 +99,17 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "选择";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // sendFile
             // 
-            this.button3.Location = new System.Drawing.Point(606, 375);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(92, 23);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "发送文件";
-            this.button3.UseVisualStyleBackColor = true;
+            this.sendFile.Location = new System.Drawing.Point(606, 375);
+            this.sendFile.Name = "sendFile";
+            this.sendFile.Size = new System.Drawing.Size(92, 23);
+            this.sendFile.TabIndex = 7;
+            this.sendFile.Text = "发送文件";
+            this.sendFile.UseVisualStyleBackColor = true;
+            this.sendFile.Click += new System.EventHandler(this.sendFile_Click);
             // 
             // btnSend
             // 
@@ -146,9 +148,9 @@
             this.Controls.Add(this.cboUsers);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.btnSend);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.sendFile);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.filePath);
             this.Controls.Add(this.txtMsg);
             this.Controls.Add(this.txtLog);
             this.Controls.Add(this.button1);
@@ -169,9 +171,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RichTextBox txtLog;
         private System.Windows.Forms.RichTextBox txtMsg;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox filePath;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button sendFile;
         private System.Windows.Forms.Button btnSend;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.ComboBox cboUsers;

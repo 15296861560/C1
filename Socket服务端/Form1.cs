@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -39,7 +40,7 @@ namespace Socket服务端
             //开启一个新线程去等待客户端的连接
             Thread th = new Thread(Listen);
             th.Start(socket);
-            
+
         }
 
         /// <summary>
@@ -76,13 +77,13 @@ namespace Socket服务端
                 Thread th = new Thread(Recive);
                 th.IsBackground = true;
                 th.Start(socketSend);
-                
+
             }
-            
+
         }
 
         //将远程连接的客户端IP地址和Socket存入集合中
-        Dictionary<string, Socket> dicSocket = new Dictionary<string, Socket>(); 
+        Dictionary<string, Socket> dicSocket = new Dictionary<string, Socket>();
 
         /// <summary>
         /// 服务器不停地接收客户端发送过来的消息
@@ -158,6 +159,41 @@ namespace Socket服务端
             }
 
 
+        }
+        /// <summary>
+        /// 选择要发送的文件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            //设置初始目录
+            ofd.InitialDirectory = @"D:\Test\c#\file";
+            ofd.Title = "请选择要发送的文件";
+            ofd.Filter = "所有文件|*.*";
+            ofd.ShowDialog();
+            //将选中文件的全路径赋值给文本框
+            filePath.Text = ofd.FileName;
+        }
+
+        private void sendFile_Click(object sender, EventArgs e)
+        {
+            //获取要发送文件的路径
+            string path = filePath.Text;
+            using (FileStream fileStream = new FileStream(path, FileMode.Open, FileAccess.Read))
+            {
+                byte[] buffer = new byte[1024 * 1024*5];
+                int r = fileStream.Read(buffer, 0, buffer.Length);
+                //创建一个泛型集合存储协议和想发送过去的数据
+                List<byte> list = new List<byte>();
+                list.Add(0);
+                list.AddRange(buffer);
+                //将泛型集合转换为数组
+                byte[] newBuffer = list.ToArray();           
+                dicSocket[cboUsers.SelectedItem.ToString()].Send(newBuffer,0,r+1,SocketFlags.None);
+            }
+        
         }
     }
 }
