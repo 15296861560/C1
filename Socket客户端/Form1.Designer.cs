@@ -42,7 +42,7 @@
             this.txtServer.Name = "txtServer";
             this.txtServer.Size = new System.Drawing.Size(138, 25);
             this.txtServer.TabIndex = 0;
-            this.txtServer.Text = "192.168.137.1";
+            this.txtServer.Text = "192.168.2.104";
             // 
             // txtPort
             // 
