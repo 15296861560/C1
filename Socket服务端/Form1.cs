@@ -115,10 +115,16 @@ namespace Socket服务端
 
                 }
             }
-        }
+        }/// <summary>
+        /// 发送震动
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button5_Click(object sender, EventArgs e)
         {
-
+            byte[] buffer = new byte[1];
+            buffer[0] = 2;
+            dicSocket[cboUsers.SelectedItem.ToString()].Send(buffer);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -187,7 +193,7 @@ namespace Socket服务端
                 int r = fileStream.Read(buffer, 0, buffer.Length);
                 //创建一个泛型集合存储协议和想发送过去的数据
                 List<byte> list = new List<byte>();
-                list.Add(0);
+                list.Add(1);
                 list.AddRange(buffer);
                 //将泛型集合转换为数组
                 byte[] newBuffer = list.ToArray();           
