@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socket服务端", "Socket�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socket客户端", "Socket客户端\Socket客户端.csproj", "{D0C81CF3-762B-4F98-A4E3-1ACA374CBA14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式", "单例模式\单例模式.csproj", "{349A9D3D-CD50-4DA9-910B-E77F3F00ECB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -411,6 +413,10 @@ Global
 		{D0C81CF3-762B-4F98-A4E3-1ACA374CBA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0C81CF3-762B-4F98-A4E3-1ACA374CBA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0C81CF3-762B-4F98-A4E3-1ACA374CBA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{349A9D3D-CD50-4DA9-910B-E77F3F00ECB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349A9D3D-CD50-4DA9-910B-E77F3F00ECB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349A9D3D-CD50-4DA9-910B-E77F3F00ECB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349A9D3D-CD50-4DA9-910B-E77F3F00ECB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
