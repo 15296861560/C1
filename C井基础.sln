@@ -141,6 +141,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式", "单例模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "创建XML", "创建XML\创建XML.csproj", "{157D6375-6A56-4533-B9EC-F951D2F9CA4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "创建带属性的XML文档", "创建带属性的XML文档\创建带属性的XML文档.csproj", "{AF38F4FF-118C-4105-A9CF-93B8820FFF05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -423,6 +425,10 @@ Global
 		{157D6375-6A56-4533-B9EC-F951D2F9CA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{157D6375-6A56-4533-B9EC-F951D2F9CA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{157D6375-6A56-4533-B9EC-F951D2F9CA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF38F4FF-118C-4105-A9CF-93B8820FFF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF38F4FF-118C-4105-A9CF-93B8820FFF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF38F4FF-118C-4105-A9CF-93B8820FFF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF38F4FF-118C-4105-A9CF-93B8820FFF05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
