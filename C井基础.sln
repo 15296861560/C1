@@ -139,6 +139,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socket客户端", "Socket�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式", "单例模式\单例模式.csproj", "{349A9D3D-CD50-4DA9-910B-E77F3F00ECB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "创建XML", "创建XML\创建XML.csproj", "{157D6375-6A56-4533-B9EC-F951D2F9CA4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -417,6 +419,10 @@ Global
 		{349A9D3D-CD50-4DA9-910B-E77F3F00ECB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{349A9D3D-CD50-4DA9-910B-E77F3F00ECB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{349A9D3D-CD50-4DA9-910B-E77F3F00ECB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157D6375-6A56-4533-B9EC-F951D2F9CA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157D6375-6A56-4533-B9EC-F951D2F9CA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157D6375-6A56-4533-B9EC-F951D2F9CA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157D6375-6A56-4533-B9EC-F951D2F9CA4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

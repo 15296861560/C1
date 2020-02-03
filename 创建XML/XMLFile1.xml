@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Foods>
+  <Food>
+    <Name>可乐</Name>
+    <Price>3</Price>
+    <Des>好喝的饮料</Des>
+  </Food>
+
+  <Food>
+    <Name>雪碧</Name>
+    <Price>3</Price>
+    <Des>透明的汽水</Des>
+  </Food>
+</Foods>
